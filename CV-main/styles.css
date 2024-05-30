@@ -1,0 +1,121 @@
+body {
+    background-color: #f6eba7;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section#hero {
+    background-color: rgb(214, 182, 120);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    border-radius: 1px;
+    width: 200px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10%;
+
+}
+
+section h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+section h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.lista-proyectos {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+
+.texto-justificado {
+    text-align: justify;
+
+}
+
+.detalles-proyecto {
+    border: 3px;
+    width: 300px;
+    margin: 20px;
+}
+
+.detalles-proyecto img {
+    width: 60%
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(243, 223, 142);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul button {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgb(190, 170, 115);
+    border-radius: 10px;
+
+}
+section#Proyectos{
+    height: 700;
+}
+
+section#Idiomas {
+    height: 250;
+}
+
+section#RedesSociales {
+    height: 100;
+}
+
+section a {
+    font-weight: bold;
+}
+
+section#RedesSociales {
+    background-color: rgb(9, 9, 9);
+    height: 4px;
+
+}
+
+.ListaRedesSociales {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+
+}
+.DetallesRedesSociales {
+    border: 3px;
+    width: 90px;
+    margin: 30px;
+
+}
+.DetallesRedesSociales img {
+    width: 50%
+}

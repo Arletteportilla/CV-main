@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4a90e2;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #357ab8;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #4a90e2, #50a3a2);
+    color: #fff;
+}
+
+#hero img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#hero h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+#Proyectos .lista-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.detalles-proyecto {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.detalles-proyecto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.detalles-proyecto img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.texto-justificado {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.detalles-proyecto a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.detalles-proyecto a:hover {
+    text-decoration: underline;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #4a90e2;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.lista-redes-sociales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalles-redes-sociales {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.detalles-redes-sociales img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.detalles-redes-sociales a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.detalles-redes-sociales a:hover {
+    text-decoration: underline;
+}
